@@ -16,7 +16,7 @@
 title: Nathan's Tech Blog
 email: nathan.hennig@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Discussing Ruby on Rails, Ruby, Python and general
+  Discussing PHP, Ruby on Rails, Ruby, Python and general
   software development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,9 +31,9 @@ markdown: kramdown
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 # host: 0.0.0.0
+port: 5000
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
